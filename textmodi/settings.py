@@ -25,7 +25,7 @@ SECRET_KEY = 'c9ypp!mx!q1*f86(vyq#id#9s5ijc(nto_3qa6q732)b*r&o7_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['159.65.145.180']
 
 
 # Application definition
@@ -73,12 +73,15 @@ WSGI_APPLICATION = 'textmodi.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
+
+
+
 
 
 # Password validation
